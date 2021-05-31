@@ -1,37 +1,37 @@
 body{
     margin: 0;
+    height: 100€;
 }
-
-ul{
+  
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
-    background-color: gainsboro;
+    width: 25%;
+    background-color: rgb(183, 205, 214);
     position: fixed;
-    height: auto;
     overflow: auto;
-    border: 1px solid #555
+    border: 1px solid #555;
 }
-
+  
 li{
     text-align: center;
-    border: 1px solid #555;
+    border: 1px solid rgb(214, 211, 211);
   }
-
-li a{
+  
+li a {
     display: block;
     color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
-
+  
 li a.activo{
     background-color: green;
     color: white;
 }
   
 li a:hover:not(.activo) {
-    background-color: #555;
+    background-color: rgb(156, 156, 156);
     color: whitesss;
 }
