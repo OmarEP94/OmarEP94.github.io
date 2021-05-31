@@ -1,0 +1,54 @@
+* {
+  padding: 10 px;
+}
+
+body {
+  background-color: orchid;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+/* Agregamos tipos de letras */
+
+.parrafo1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Agregamos estilos a los parrafos */
+.parrafo3 {
+  font-style: italic;
+}
+
+.parrafo4 {
+  font-style: oblique;
+}
+
+.parrafo5 {
+  font-style: normal;
+}
+
+.parrafo6 {
+  font-weight: bold;
+}
+
+.parrafo7 {
+  font-weight: bolder;
+}
+
+.parrafo8 {
+  font-variant: small-caps;
+}
+
+.parrafo9 {
+  font-variant: normal;
+}
+
+.parrafo10 {
+  font-size: 30px;
+}

@@ -1,0 +1,27 @@
+.caja1 {
+  width: 300px;
+  margin: auto;
+  border: 5px solid steelblue;
+}
+
+/* Define el tamaño maximo que puede terner el elemento */
+.caja2 {
+  max-width: 300px;
+  margin: auto;
+  border: 5px solid rgb(236, 115, 16);
+}
+
+.contenedor {
+  width: 95%;
+  height: 400px;
+  margin: auto;
+  background-color: violet;
+}
+
+.contenedor2 {
+  width: 95%;
+  max-width: 800px;
+  height: 400px;
+  margin: auto;
+  background-color: rgb(62, 255, 207);
+}

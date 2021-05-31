@@ -1,0 +1,138 @@
+/* agregamos colores a todo... */
+body {
+  background-color: darkslateblue;
+}
+
+.contenedor {
+  background-color: darkgrey;
+}
+
+header {
+  background-color: darkorchid;
+}
+
+nav {
+  background-color: darkseagreen;
+}
+
+section {
+  background-color: beige;
+}
+
+footer {
+  background-color: yellowgreen;
+}
+
+/* Agregamos un borde de tipo dotted */
+.border1 {
+  border-style: dotted;
+}
+
+.border2 {
+  border-style: dashed;
+}
+
+.border3 {
+  border-style: solid;
+}
+
+.border4 {
+  border-style: double;
+}
+
+.border5 {
+  border: groove;
+}
+
+.border6 {
+  border-style: ridge;
+}
+
+.border7 {
+  border-style: inset;
+}
+
+.border8 {
+  border-style: outset;
+}
+
+.border9 {
+  border-style: none;
+}
+
+.border10 {
+  border-style: hidden;
+}
+/* Agregamos un borde de tipo coombinado
+cuando realizamos bordes combinados la sintaxis seria la siguiente:
+border-style: (Arriba y Abajo) (Izquiera y Derecha)
+  border-style: (Arriba) (Izquierda y Derecha) (Abajo)
+    border-style: (Arriba) (Izquierda) (Abajo) (Derecha)*/
+.border11 {
+  border-style: dotted dashed solid double;
+}
+
+/* Aplicamos bordes cambiando el ancho del borde */
+.border12 {
+  border-style: dotted;
+  border-width: 10px;
+}
+
+.border13 {
+  border-style: dotted;
+  border-width: medium;
+}
+
+.border14 {
+  border-style: solid;
+  border-width: 10px 15px 4px 7px;
+}
+
+/* Aplicamos bordes cambiando el color del borde */
+.border15 {
+  border-style: solid;
+  border-color: deeppink;
+}
+
+.border16 {
+  border-style: dashed;
+  border-color: deeppink rebeccapurple blue yellowgreen;
+}
+
+/* Aplicamos bordes solo a un lugar especifico 
+top - Superior
+Bottom - Inferior*/
+.border17 {
+  border-top-style: dashed;
+  border-color: maroon;
+}
+
+.border18 {
+  border-bottom-style: dotted;
+  border-color: maroon;
+}
+
+.border19 {
+  border-left-style: solid;
+  border-color: blue;
+}
+
+.border20 {
+  border-right-style: double;
+  border-color: blue;
+}
+
+/* Aplicamos bordes redondeandolos */
+.border21 {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: blue;
+}
+
+.border22 {
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 15px;
+  border-color: magenta;
+}

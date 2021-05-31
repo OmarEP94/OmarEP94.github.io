@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(197, 202, 204);
+}
+
+.contenedor {
+  background-color: rgb(183, 197, 228);
+  width: 980px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border: 2px solid darksalmon;
+  border-collapse: collapse;
+}
+
+thead th,
+tbody td {
+  border: 2px solid darkslateblue;
+  text-align: center;
+}
+
+/* Aumentar el tamaño del th */
+/* Alineamos los datos del th al centro y superior */
+/* Damos un color de fondo y un color de letra */
+th {
+  height: 50px;
+  text-align: center;
+  vertical-align: top;
+  background-color: orangered;
+  color: bisque;
+}
+
+/* Agremamos un fondo y un color a la letra cuando pasamos el cursor  */
+table tbody tr:hover {
+  background-color: black;
+  color: floralwhite;
+}

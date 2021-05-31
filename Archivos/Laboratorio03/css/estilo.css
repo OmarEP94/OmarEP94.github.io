@@ -1,0 +1,112 @@
+/* esto es un comentario en css */
+/* aplicaremos un estilo para darle un color de fondo a la pagina*/
+body {
+  background-color: silver;
+}
+
+#contenedor {
+  background-color: black;
+}
+
+#cabecera {
+  background-color: blue;
+}
+
+#menu {
+  background-color: cadetblue;
+}
+
+#cuerpo {
+  background-color: darkorchid;
+}
+
+#pie {
+  background-color: coral;
+}
+
+#parrafoimagen {
+  background-image: url(/img/foto1.jpg);
+}
+
+/* Agregamos un color de fondo con transparencia para los parrafos*/
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+
+/* agregamis una imagen de fondo al parrafo, pero quiero que la imagen no se repita */
+#parrafoimagenrepetir {
+  background-image: url("/img/html5ycss3.png");
+}
+
+#parrafoimagennorepetir {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+
+#parrafoimagentamaño {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+}
+
+#parrafoimagenrepetirhorizontal {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+#parrafoimagenrepetirvertical {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+#parrafoimagencentrar {
+  background-image: url("/img/html5ycss3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagenizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagenderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagensuperior {
+  background-image: url("/img/html5ycss3.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimageninferior {
+  background-image: url("/img/html5ycss3.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimagensuperiorderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+#parrafoimageninferiorizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}

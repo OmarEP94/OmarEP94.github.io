@@ -1,0 +1,12 @@
+body {
+  background-color: darkgreen;
+}
+
+.contenedor {
+  background-color: white;
+}
+
+table {
+  width: 100%;
+  border: 4px solid darkorange;
+}
