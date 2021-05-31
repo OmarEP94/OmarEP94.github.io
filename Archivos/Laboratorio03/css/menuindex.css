@@ -33,5 +33,5 @@ li a.activo{
   
 li a:hover:not(.activo) {
     background-color: rgb(156, 156, 156);
-    color: whitesss;
+    color: white;
 }
