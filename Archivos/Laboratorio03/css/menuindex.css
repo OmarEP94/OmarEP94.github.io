@@ -7,8 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: rgb(214, 183, 183);
-    position: fixed;
+    background-color: rgb(255, 219, 166);
     overflow: auto;
     border: 1px solid #555;
 }

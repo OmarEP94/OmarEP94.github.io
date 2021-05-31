@@ -9,7 +9,6 @@ ul {
     padding: 0;
     width: 25%;
     background-color: rgb(183, 205, 214);
-    position: fixed;
     overflow: auto;
     border: 1px solid #555;
 }
