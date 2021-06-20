@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript parte 4</title>
+    <script type="text/javascript">
+    //funciones y procedimientos
+    //los procedimientos y funciones permiten agrupar codigo de forma modular de tal manera que puedo tener bloques de codigo que realizen ciertas acciones
+    //funciones
+    //las funciones devuelven siempre un valor
+    //sintaxis
+    // funcion nombrefuncion(parametros){
+    //     ...programa...
+    //     retun valor;
+    // }
+    //parametros
+    //son valores que que pueden o no estar presente en la funcion; son valores que necesita la funcion para realizar en caso esten presentes
+    //retun:es el valor que va a devolver la funcion este valor sera importante porque define el tipo de dato de la funcion
+
+    //ejemplo1
+    //desarrollar una aplicaccion que permita ingresar dos nmeros y luego permita calcular las operaciones basicas
+    // cuantas variables necesito?
+    // 6
+    // que tipo de variables necesito?
+    // real
+    // cuales son las variables?
+    // n1 n2 sum res mul div
+    // que variables voy a leer?
+    // n1 n2
+    //declarando funciones
+    function calculasuma(num1,num2){
+        return num1+num2;
+    }
+    function calcularesta(num1,num2){
+        return num1-num2;
+    }
+    function calculamultiplicacion(num1,num2){
+        return num1*num2;
+    }
+    function calculadivision(num1,num2){
+        return num1/num2;
+    }
+    //definiendo e iniciando valores
+    var n1=0, n2=0, sum=0, res=0, mul=0, div=0;
+    //capturando valores
+    n1=parseFloat(prompt("ingrese el numero 1"));
+    n2=parseFloat(prompt("ingrese el numero 2"));
+    //lamando a las funciones para calcular
+    sum=calculasuma(n1,n2);
+    res=calcularesta(n1,n2);
+    mul=calculamultiplicacion(n1,n2);
+    div=calculadivision(n1,n2);
+    //mostrando resultados
+    document.write("la suma es: "+sum+"<br>")
+    document.write("la resta es: "+res+"<br>")
+    document.write("la multiplicacion es: "+mul+"<br>")
+    document.write("la division es: "+div+"<br>")
+    document.write("<hr>")
+    document.write("<hr>")
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

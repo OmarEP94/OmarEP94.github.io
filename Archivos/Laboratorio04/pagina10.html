@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 3</title>
+    <script type="text/javascript">
+    //Estructuras selectivas
+    //se basa eb la evaluacion de casos, estos casos pueden ser numero o
+    //texto 
+    //Sintaxis
+    //Switch
+    //shitch(variable){
+    //  case valor 1:
+    //  ...programa...
+    //  break;
+    //  case valor 2:
+    //  ...programa...
+    //  break;
+    //  case valor 3:
+    //  ...programa...
+    //  break;
+    //  case valor n:
+    //  ...programa...
+    //  break;
+    //  default:
+    //  ...programa...
+    //  break;
+    // }
+
+    //Valor1, valor2, ...valorn deben de ser el mismo tipo de datoque la 
+    //variable que se esta evaluando
+    //Podemos reemplaxar un si anidado por una estructura selectiva, siempre
+    //y cuando la estructura anidada no tenga conectores logicos en las 
+    //condionales.
+
+    //Ejemplo 1:
+    //Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se sabe que su sueldo basico se ingresa por teclado. Adicional a eso se le va  a calcular una bonificacion y un descuento dependiendo de la categoria a la cual pertenece, tal como se muestraa continuacion:
+    
+    //categoria      Bonificacion   Descuento
+    //A              7%             5%
+    //B              9%             7%  
+    //C              11%            9%   
+    //mostrar todos los reesultados
+    //¿Cuantas variables necesito?
+    //5
+    //¿Que tipos de datos tengo?
+    //Real, texto.
+    //¿Cuales son las variables que necesito?
+    // sb, bon, des, sf, cat
+    //¿Que variables voy a leer?
+    //sb, cat.
+    //definiendo e inicializando valores
+    var sb=0, bon=0, des=0, sf=0, cat="";
+    //capturando valores
+    sb=parseFloat(prompt("Ingrese el sueldo basico del trabajador: "));
+    cat=prompt("Ingresa la categoria: [a] o [b] o [c]");
+    //selectiva
+    switch(cat.toLowerCase()){
+        case "a":
+            bon=sb*0.07;
+            des=sb*0.05;
+        break;
+        case "b":
+            bon=sb*0.09;
+            des=sb*0.07;
+        break;
+        case "c":
+            bon=sb*0.11;
+            des=sb*0.09;
+        break;
+        default:
+            bon=0;
+            des=0;
+        break;
+    }
+
+    sf=sb+bon-des;
+    // mostrando resultados
+    alert("El sueldo basico es: "+sb);
+    alert("La bonificacion es: "+bon);
+    alert("El descuento es: "+des);
+    alert("El sueldo final es: "+sf);
+
+    // Ejemplo 2:
+    //Desarrollar una alicacion que permita ingresar el precio de un poroducto y 
+    //la cantidad a comprar y dependiendo de la categoria aplicara un descuento al subtotal 
+    //tal como se muestra a continuacion:
+    //categoria    descuento
+    //1.............3%
+    //2.............5%
+    //3.............7%
+    //4.............9%
+
+    //mostrar todos los resultados
+    //¿Cuantas variables necesito?
+    //6
+    //¿Que tipo de dsato necesito?
+    //Real y entero 
+    //¿Cuales son las variables que necesito?
+    //pre, can, sbt, des, tot, cat.
+    //¿Que variables voy a leer?
+    //pre, can, cat.
+    //definiendo e inicializando valores
+    var pre=0, can=0, sbt=0, des=0, tot=0, cat=0;
+    //capturando valores
+    pre=parseFloat(prompt("Ingrese el precio del producto: "));
+    can=parseInt(prompt("Ingrese la cantidad de productos a comprar: "));
+    cat=parseInt(prompt("Ingrese la categoria; [1] o [2] o [3] o [4]"));
+    //Realizando operaciones
+    sbt=pre*can
+    //selectiva
+    switch(cat){
+        case 1:
+            des=sbt*0.03;
+        break;
+        case 2:
+            des=sbt*0.05;
+        break;
+        case 3:
+            des=sbt*0.07;
+        break;
+        case 4:
+            des=sbt*0.09;
+        break;
+        default:
+            des=0;
+        break;
+    }
+    tot=sbt-des;
+    //mostrando resultados
+    document.write("El subtotal es: "+sbt+"<br>");
+    document.write("El descuento es: "+des+"<br>");
+    document.write("El total es: "+tot+"<br>");
+    document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

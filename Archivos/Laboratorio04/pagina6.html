@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Parte 3</title>
+    <script type="text/javascript">
+    //estructuras logicas
+    //se clasican en;
+    //condicionales
+    //selectivas
+    //repetitivas
+    //condicionales
+    //condicion--> evaluacion-->verdadero o falso
+    //ejemplo
+    //7<5 ->falso
+    //estructuras condicionales
+    //simples
+    //dobles
+    //anidadas
+    //condicionales simples-->devuelven un valor siempre y cuando la condicion sea verdadera
+    //if("condicion"){
+    //...programa...
+    //}
+
+    // ejemplo1
+    // desarrollar una aplicaccion que permita ingresar 3 notas y luego calcular el promedio si el promedio es mayor o igual a 13 se  debe mostrar un mensaje indicado "aprobado"
+    // ¿cuantas variables necesito?
+    //5
+    //que tipo de datos necesito?
+    //real y texto
+    //cuales son las variables?
+    //n1, n2, n3, prom, mensaje
+    //que variables voy a leer?
+    //n1 n2 n3
+    //definiedo e inicializando variables
+    var n1=0, n2=0, n3=0, prom=0, men="";
+    //capturando valores
+    n1=parseFloat(prompt("ingrese la nota 1:"));
+    n2=parseFloat(prompt("ingrese la nota 2:"));
+    n3=parseFloat(prompt("ingrese la nota 3:"));
+    //realizando operaciones
+    prom=(n1+n2+n3)/3
+    //condicion
+    if(prom>=13){
+        men="Aprobado";
+    }
+    //mostrando resultado
+    alert("el promedio es: "+prom);
+    alert(men);
+
+    //ejemplo 2
+    //desarrollar una plicaccion que permita calcular el sueldo final de un trabajador si se sabe que su sueldo bsico se ingresa ademas si el trabajador pertenece a la categoria 3 se le calculara una bonificaccion 7% y un descuento 5% en base al sueldo basico mostrar todos los resultados
+    // ¿cuantas variables necesito?
+    //5
+    //que tipo de datos necesito?
+    //real y entero
+    //cuales son las variables?
+    //sb, bon, des, sf, cat
+    //que variables voy a leer?
+    //sb, cat
+    //definiedo e inicializando variables
+    var sb=0, bon=0, des=0, sf=0, cat=0;
+    //capturando valores
+    sb=parseFloat(prompt("ingrese el sueldo basico:"));
+    cat=parseInt(prompt("ingrese la categoria:"))
+    //condicion
+    if(cat==3){
+        bon=sb*0.07;
+        des=sb*0.05;
+    }
+    //realizando operaciones
+    sf=sb+bon-des;
+    //mostrando resultado
+    document.write("el sueldo basico es:"+sb+"<br>");
+    document.write("la bonificaccion es:"+bon+"<br>");
+    document.write("el descuento es:"+des+"<br>");
+    document.write("el sueldo final es:"+sf+"<br>");
+    document.write("<hr>");
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
