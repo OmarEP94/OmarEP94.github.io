@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 1</title>
+    <script type="text/javascript">
+    //definiendo e inicializando variables
+    var est=0, men="";
+    //capturando valores
+    est=parseInt(prompt("ingresa el numero de la estacion 1 o 2 o 3 o 4:"));
+    //condicion
+    if(est==1){
+        men="verano";
+    }else{
+        if(est==2){
+            men="otoño";
+        }else{
+            if(est==3){
+            men="invierno";
+            }else{
+                if(est==4){
+                men="primavera";
+                }else{
+                    men="no es un numero valido"
+                }
+                
+            }
+            
+        }
+    }
+    alert("la estacion es: "+men);
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

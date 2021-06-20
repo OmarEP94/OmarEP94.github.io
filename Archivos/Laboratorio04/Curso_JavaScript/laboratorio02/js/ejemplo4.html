@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 4</title>
+    <script type="text/javascript">
+    //definiendo e iniciando variables
+    var nh=0, ch=0, sb=0, bon=0, des=0, sf=0;
+    //capturando valores
+    nh=parseFloat(prompt("ingrese el numero de horas trabajadas:"));
+    ch=parseFloat(prompt("ingrese el costo por hora trabajada:"));
+    //realizando operaciones
+    sb=nh*ch;
+    bon=sb*0.07;
+    des=sb*0.0375;
+    sf=sb+bon-des;
+    //mostrando resultados
+    document.write("el sueldo basico es:"+sf+"<br>");
+    document.write("la bonificacion es:"+bon+"<br>");
+    document.write("el descuento es:"+des+"<br>");
+    document.write("el sueldo final es:"+sf+"<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
