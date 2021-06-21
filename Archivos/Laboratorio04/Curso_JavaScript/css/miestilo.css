@@ -52,5 +52,23 @@ li a:hover:not(.activo) {
     background-color: #555;
     color: whitesss;
     padding: 0;
+}
+h1{
+    font-family: cooper;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(177, 1, 247);
+}
 
+h2{
+    font-family: cooper;
+    font-size: 25px;
+    color: coral;
+}
+
+h3{
+    font-family: cooper;
+    font-size: 25px;
+    color: rgb(80, 98, 255);
 }
