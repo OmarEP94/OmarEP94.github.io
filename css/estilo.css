@@ -9,6 +9,7 @@ body{
   margin: auto;
   border-radius: 0;
   height: 380px;
+    box-shadow: 5px green;
 }
 
 .slider ul {
