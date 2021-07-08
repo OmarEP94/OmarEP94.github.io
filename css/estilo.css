@@ -58,7 +58,7 @@ body{
   }
 }
 
-div{
+div .menu{
     list-style-type: none;
     margin: auto;
     padding: 25pxpx;
