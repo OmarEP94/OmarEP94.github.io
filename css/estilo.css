@@ -7,7 +7,7 @@ body{
   width: 95%;
   overflow: hidden;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 0;
   height: 380px;
 }
 
