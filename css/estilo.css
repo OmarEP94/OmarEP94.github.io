@@ -87,6 +87,10 @@ p a{
     border-radius: 250px;
 }
 
+div .menu{
+  padding: 15px;
+}
+
 div p a .menu2{
     margin-left: 250px;
     margin-top: -5550px;
