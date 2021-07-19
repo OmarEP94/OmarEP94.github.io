@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" href="css/estilopag2.css">
+</head>
+<body>
+    <div class="cajavalidacion">
+        <h1>REGISTRO DE VENTAS</h1>
+        <form action="" class="formulario">
+            <div>
+                <label for="txtNom">Nombre del producto: </label>
+            <br>
+            <input type="text" name="txtNom" id="txtNom" placeholder="Nombre del producto" required>
+            <br>
+            <label for="txtPre">Precio del producto: </label>
+            <input type="text" name="txtPre" id="txtPre" placeholder="Precio del producto" required>
+            <br>
+            <label for="cboCategoria">Categoria</label><br>
+            <select name="cboCategoria" id="cboCategoria">
+                <option value="0">Seleccione un categoria</option>
+                <option value="1">Entretenimiento</option>
+                <option value="2">Tecnología</option>
+                <option value="3">Linea Blanca</option>
+            </select>
+            <br>
+            <label for="txtCan">Cantidad</label>
+            <input type="number" name="txtCan" id="txtCan">
+            <div>
+                <ul class="error" name="error" id="error"></ul>
+            </div>
+            <br>
+            <input type="button" value="Resgistrar" id="btnRegistrar" name="btnRegistrar" class="boton">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <table id="tbRegistro">
+        <thead>
+            <th>Nombre</th><br>
+            <th>Precio</th><br>
+            <th>Categoria</th><br>
+            <th>Cantidad</th><br>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="js/producto.js"></script>
+    <script src="js/valproducto.js"></script>
+    <script src="js/bibliotecaproducto.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{ 
+    margin: auto;
+    width: 1200px;
+}
+
+img{
+    margin: auto;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 25pxpx;
+    width: 600px;
+    height: auto;
+    overflow: auto;
+}
+
+
+li{
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    font-size: 25px;
+    border: 2px solid rgb(160, 50, 50);
+    border-radius: 250px;
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 250px;
+}
+
+ul li .menu2{
+    margin-left: 250px;
+    margin-top: -5550px;
+}
+
+li a.activo{
+    background-color: green;
+    color: white;
+    padding: 0;
+    border-radius: 250px;
+}
+  
+li a:hover:not(.activo) {
+    background-color: #555;
+    color: whitesss;
+    padding: 0;
+
+}

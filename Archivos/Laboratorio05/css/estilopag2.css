@@ -1,0 +1,122 @@
+body{
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+    background-color: #a87979;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+ }
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: #ce1818;
+    font-style: unset;
+    text-align: center;
+}
+
+.cajavalidacion {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 450px;
+}
+
+.formulario input,select[type="text"], .formulario input[type="mail"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.formulario select[type="text"], .formulario input[type="mail"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.formulario input[type="text"]:focus, .formulario input[type="mail"]:focus{
+    border-bottom: 2px solid #246eb9;
+}
+
+.boton{
+    width: 100%;
+    text-align: center;
+    background: #b63cee;
+    color: #fff;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.formulario .boton:hover{
+    background-color: #69137a;
+}
+
+.formulario .error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #7cf519;
+    color:rgb(3, 3, 3);
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+select{
+    width: 109%;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border:none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+table{
+    margin-left: 650px;
+    margin-top: -650px;
+    border: 1px cornflowerblue;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    background-color: rgb(0, 0, 0);
+    color: ghostwhite;
+    border-radius: 20px;
+    width: 180px;
+    padding: 3px 5px;
+    box-shadow: 0 0 10px rgb(0, 225, 255);
+}
+
+tbody{
+    background-color: rgb(167, 229, 231);
+    border-radius: 20px;
+    text-align: center;
+}
+
+td{
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(0, 153, 255);
+    
+}
