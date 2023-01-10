@@ -1,0 +1,18 @@
+
+
+nav div div ul li:hover{
+    background-color: rgb(15, 22, 114);
+    border-radius: 11px;
+    height: 100%;
+    box-shadow: 5ch;
+    color: black;
+}
+
+img{
+}
+
+nav div div ul li .active{
+    background-color: rgb(18, 29, 107);
+    border-radius: 10px;
+    box-shadow: 5ch;
+}
