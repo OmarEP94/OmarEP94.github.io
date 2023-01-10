@@ -26,11 +26,7 @@
 
   <body
     style="
-      margin: 0 auto;
-      background-size: cover;
-      background-color: grey;
       background-image: url(/img/Imagen1111.jpg);
-      background-position: 50% 50%;
     "
   >
     <!-- Cabecera -->
@@ -62,7 +58,7 @@
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             class="col-lg-4"
-            style="margin: auto; font-size: 17px"
+            style="margin: auto; font-size: 16px"
           >
             <h3 class="text-responsive text-white">
               Gaming World | Bienvenid@
@@ -106,7 +102,7 @@
     <!-- Barra de Navegación -->
     <section style="height: auto; background-color: rgb(10, 4, 56)">
       <div>
-        <nav class="navbar navbar-expand-lg p-3 navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container">
             <a class="navbar-brand" href="/gw.html"
               ><img
@@ -131,12 +127,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre Nosotros</a>
+                  <a class="nav-link" href="sn.html">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -181,7 +177,7 @@
                 </button>
               </form>
               <div class="ms-4">
-                <div class="nav-item d-grid">
+                <div class="nav-item">
                   <li
                     class="nav-item dropdown d-flex align-items-center"
                     style="list-style: none"
@@ -205,7 +201,7 @@
                     </a>
                     <ul class="dropdown-menu text-center">
                       <li>
-                        <a class="dropdown-item" th:href="@{/app/login}"
+                        <a class="dropdown-item" href="/login.html"
                           >Inicie Sesión</a
                         >
                       </li>
@@ -311,6 +307,7 @@
         </div>
       </div>
     </section>
+    <!-- Whasap -->
     <section>
       <div>
         <img
@@ -348,8 +345,8 @@
               Los productos que solo encontrarás en GamingWorld Perú
             </p>
           </div>
-          <div class="px-4">
-            <div class="row text-center gx-4">
+          <div class="">
+            <div class="row text-center">
               <div class="card col-lg-3 col-md-6 col-sm-6 mx-auto">
                 <img class="w-100 p-lg-1 p-1 mt-1 mx-auto" src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07062905.png" alt="">
                 <hr>
@@ -466,6 +463,136 @@
         </div>
       </div>
     </section>
+    <!-- Mapa y Sugerencias -->
+    <section class="py-4" style="background-color: rgba(193, 193, 236, 0.719);">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <h3>Ubícanos</h3>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.86288833342863!2d-77.038248!3d-12.0568505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c6a4380269%3A0xb1b69c84f1e458a!2sGAMING%20WORLD!5e0!3m2!1ses-419!2spe!4v1673308144773!5m2!1ses-419!2spe" width="80%" 
+              height="250rem" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="text-dark my-3"
+              ><strong> Ubícanos: </strong> Av. Inca Garcilazo de la vega1348
+              Tdas 1A152 - 1B105 -SSB 151, Lima, Peru <br />
+              <strong>Contacto: </strong> +51 951 419 960
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Quejas y/o Sugerencias</h3>
+            <div class="text-start mx-auto">
+              <form action="" class="w-75-lg m-auto bg-white rounded-3 p-4">
+                <div class="mb-2">
+                  <label for="form-label">Nombres y apellidos:</label>
+                <input class="form-control w-100" type="text" placeholder="Ingrese sus nombres y apellidos completos">
+                </div>
+                <div class="mb-2">
+                  <label for="form-label">Celular:</label>
+                <input class="form-control w-100" type="text" placeholder="Ingrese su numero de celular (+51)">
+                </div>
+                <div class="mb-2">
+                  <label for="form-label">Correo electrónico:</label>
+                <input class="form-control w-100" type="text" placeholder="Ingrese su email (ejemplo@mail.com)">
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlTextarea1" class="form-label">Ingrese su queja y/o sugerencia.</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="text-center"> 
+                  <a class="btn w-50 text-white mx-auto" href="" style="background-color: rgb(36, 19, 165)"> Enviar Formulario</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section
+      class="text-center container-fluid"
+      style="
+        height: auto;
+        background: rgb(37, 40, 189);
+        background: linear-gradient(
+          180deg,
+          rgba(37, 40, 189, 1) 0%,
+          rgba(7, 12, 64, 1) 100%
+        );
+      "
+    >
+      <div class="text-center">
+        <div class="row p-4">
+          <div class="col-lg-4" style="margin: auto">
+            <img
+              data-aos="zoom-out"
+              class="img-resposive"
+              style="width: 90px"
+              src="https://gamingworldperu.com/wp-content/uploads/2022/08/cropped-PROPUESTA-1-INSIGNIA-192x192.png"
+              alt=""
+            />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="col-lg-4"
+            style="margin: auto; font-size: 16px"
+          >
+            <h5 class="text-responsive text-center text-white">
+              Nuestras Enlaces
+            </h5>
+            <div class=" text-info" style="text-decoration: none;">
+                  <a class="text-info " style="text-decoration: none;" href="/index.html">Inicio</a>
+                  <br>
+                  <a class="text-info" style="text-decoration: none;" href="/sn.html">Sobre Nosotros</a>
+                  <br>
+                  <a class="text-info" style="text-decoration: none;" href="/index.html">Productos</a>
+                  <br>
+                  <a class="text-info" style="text-decoration: none;" href="/index.html">Políticas de Garantías</a>
+                  <br>
+                  <a class="text-info" style="text-decoration: none;" href="/index.html">Libro de Reclamaciones</a>
+            </div>
+
+            
+          </div>
+          <div class="col-lg-4" style="margin: auto auto auto 0">
+            <img
+              class="p-2"
+              style="width: 50px"
+              src="/img/facebook.png"
+              alt=""
+              data-aos="zoom-out"
+            />
+            <img
+              class="p-2"
+              style="width: 50px"
+              src="/img/instagram.png"
+              alt=""
+              data-aos="zoom-out"
+            />
+            <img
+              class="p-2"
+              style="width: 50px"
+              src="/img/tiktok.png"
+              alt=""
+              data-aos="zoom-out"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="p-4 text-light  text text-center" style="height: auto; background: 
+        rgb(5, 9, 51) 
+      ;">
+        <footer>  
+          <small >© Todos los derechos reservados - GamingWorld</small>
+          <br>
+          <small class="text-muted" style="text-align: right;" >Designed By Omar_EP</small>
+        </footer>
+      </div>
+    </section>
   </body>
   <!-- ScritpBootStrap -->
   <script
@@ -485,19 +612,9 @@
     AOS.init();
   </script>
 
-  <!-- Script CardSlider -->
-  <script>
-    var splide = new Splide(".splide", {
-      type: "loop",
-      perPage: 3,
-      rewind: true,
-    });
 
-    splide.mount();
-  </script>
 </html>
 
-/*
 <!-- 
 <!DOCTYPE html>
 <html lang="en">
